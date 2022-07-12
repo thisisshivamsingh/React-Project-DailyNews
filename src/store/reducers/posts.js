@@ -1,12 +1,12 @@
 import { createSlice } from "@reduxjs/toolkit";
 import { fetchPosts } from "../utils/thunks";
 
-export const postSlice = createSlice({
+export const postsSlice = createSlice({
   name: "posts",
   initialState: {
     loading: true,
     articles: {
-      item: [],
+      items: [],
     },
   },
   reducers: {},
@@ -25,4 +25,4 @@ export const postSlice = createSlice({
   },
 });
 
-export default postSlice.reducer;
+export default postsSlice.reducer;
