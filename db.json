@@ -201,6 +201,23 @@
       "createdAt": "2020-07-22T12:59-0500"
     }
   ],
-  "newsletter": [],
+  "newsletter": [
+    {
+      "email": "thisisshivam06@gmail.com",
+      "id": 1
+    },
+    {
+      "email": "shivamsingh661998@gmail.com",
+      "id": 2
+    },
+    {
+      "email": "test@gmail.com",
+      "id": 3
+    },
+    {
+      "email": "shubham@gmail.com",
+      "id": 4
+    }
+  ],
   "contact": []
 }
